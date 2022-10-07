@@ -1,0 +1,50 @@
+---
+title: "Мечта"
+departments:
+  - title: "1-й отдел"
+    staff:
+      - name: "Ольга"
+        position: "бухгалтер"
+        count: 4
+      - name: "Дмитрий"
+        count: 3
+      - name: "Иван"
+        count: 2
+    salary_rate: 1
+
+  - title: "2-й отдел"
+    staff:
+      - name: "Роман"
+        position: "юрист"
+        count: 4
+      - name: "Максим"
+        position: "водитель"
+        count: 2
+    age: "30<"
+
+  - title: "3-й отдел"
+    staff:
+      - name: "Ольга"
+        position: "юрист"
+        count: 1
+      - name: "Иван"
+        position: "строитель"
+        count: 1
+      - name: "Николай"
+        position: "строитель"
+        count: 1
+
+  - title: "4-й отдел, 5-й отдел"
+    staff:
+      - name: "Юля"
+        position: "работа с бумагами"
+        count: 5
+    age: "30+"
+
+  - title: "6-й отдел"
+    staff:
+      - name: "Игорь Викторович"
+        position: "директор по безопасности"
+        count: 1
+    salary_rate: 2
+    age: "50+"
