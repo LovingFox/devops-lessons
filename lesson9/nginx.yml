@@ -12,5 +12,5 @@
     - name: Text change
       lineinfile:
         path: /var/www/html/index.nginx-debian.html
-        regexp: 'Welcome to nginx'
+        regexp: '^<h1>Welcome to nginx!</h1>'
         line: '<p><script> document.write(new Date().toLocaleDateString()); </script></p>'
