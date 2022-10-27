@@ -12,7 +12,7 @@ provider "docker" {
 }
 
 resource "docker_container" "foo" {
-  image = "${docker_image.nginx.latest}"
+  image = "${docker_image.nginx}"
   name  = "foo"
   ports {
     internal = 80
