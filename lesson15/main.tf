@@ -74,7 +74,7 @@ resource "aws_instance" "instance" {
   ami                        = var.ami
   instance_type              = var.instanceType
   key_name                   = aws_key_pair.aws_key.key_name
-  vpc_security_group_ids     = [ aws_security_group.sg_builder.id ]
+  vpc_security_group_ids     = [ aws_security_group.sg_instance.id ]
   user_data_base64           = "${data.template_cloudinit_config.instance_config.rendered}"
 
   tags = {
